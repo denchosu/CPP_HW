@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" modified="2023-10-29T22:31:11.351Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="x0llngeWQoM8ilsTrYaa" version="22.0.8" type="device">
+  <diagram name="Page-1" id="Kc9ZQrkVwHkXhr-2K4fK">
+    <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZJIBd4Wu2PMFYMWV5XY6-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZJIBd4Wu2PMFYMWV5XY6-2" target="ZJIBd4Wu2PMFYMWV5XY6-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJIBd4Wu2PMFYMWV5XY6-2" value="початок" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJIBd4Wu2PMFYMWV5XY6-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZJIBd4Wu2PMFYMWV5XY6-3" target="ZJIBd4Wu2PMFYMWV5XY6-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJIBd4Wu2PMFYMWV5XY6-3" value="введення N" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="150" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJIBd4Wu2PMFYMWV5XY6-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZJIBd4Wu2PMFYMWV5XY6-4" target="ZJIBd4Wu2PMFYMWV5XY6-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJIBd4Wu2PMFYMWV5XY6-4" value="Ініціалізація змінної &quot;product&quot; зі значенням 1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="250" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJIBd4Wu2PMFYMWV5XY6-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZJIBd4Wu2PMFYMWV5XY6-5" target="ZJIBd4Wu2PMFYMWV5XY6-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJIBd4Wu2PMFYMWV5XY6-5" value="While N&amp;gt;0" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="350" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJIBd4Wu2PMFYMWV5XY6-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZJIBd4Wu2PMFYMWV5XY6-10" target="ZJIBd4Wu2PMFYMWV5XY6-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJIBd4Wu2PMFYMWV5XY6-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZJIBd4Wu2PMFYMWV5XY6-10" target="ZJIBd4Wu2PMFYMWV5XY6-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJIBd4Wu2PMFYMWV5XY6-10" value="if (digit % 2 != 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="410" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJIBd4Wu2PMFYMWV5XY6-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZJIBd4Wu2PMFYMWV5XY6-12" target="ZJIBd4Wu2PMFYMWV5XY6-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJIBd4Wu2PMFYMWV5XY6-12" value="product *= digit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJIBd4Wu2PMFYMWV5XY6-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJIBd4Wu2PMFYMWV5XY6-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZJIBd4Wu2PMFYMWV5XY6-24" target="ZJIBd4Wu2PMFYMWV5XY6-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJIBd4Wu2PMFYMWV5XY6-24" value="N /= 10" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJIBd4Wu2PMFYMWV5XY6-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZJIBd4Wu2PMFYMWV5XY6-26" target="ZJIBd4Wu2PMFYMWV5XY6-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJIBd4Wu2PMFYMWV5XY6-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZJIBd4Wu2PMFYMWV5XY6-26" target="ZJIBd4Wu2PMFYMWV5XY6-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJIBd4Wu2PMFYMWV5XY6-26" value="if (product == 1)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="680" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJIBd4Wu2PMFYMWV5XY6-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZJIBd4Wu2PMFYMWV5XY6-30" target="ZJIBd4Wu2PMFYMWV5XY6-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJIBd4Wu2PMFYMWV5XY6-30" value="В числі немає непарних цифр." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJIBd4Wu2PMFYMWV5XY6-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZJIBd4Wu2PMFYMWV5XY6-33" target="ZJIBd4Wu2PMFYMWV5XY6-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJIBd4Wu2PMFYMWV5XY6-33" value="Добуток непарних цифр числа" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJIBd4Wu2PMFYMWV5XY6-35" value="exit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
