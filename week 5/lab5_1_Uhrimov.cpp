@@ -5,44 +5,37 @@
   using namespace std; 
  
   int main() {
-
-
-
-      double x, y;
-      double x_values[5];
-      double y_values[5];
-
-      for (int i = 0; i < 5; i++) {
-          cout << "Enter the value of x-" << i + 1 << ": ";
-          cin >> x;
-          x_values[i] = x;
-          y = sin(5 * x) + x * x;
-          y_values[i] = y;
-      }
-
-      cout << "Calculation results:" << endl;
-      for (int i = 0; i < 5; i++) {
-          cout << "For x-" << i + 1 << " = " << x_values[i] << ", y = " << y_values[i] << endl;
+ double x;
+    double result;
+    for(int i = 0; i < 5; i++){
+        cout << "Enter x value: ";
+        cin >> x;
+        result = (pow(sin(x), 5)) + (fabs(5*x - 1.5));
+    cout << "your result is: " << result << '\n';
+    }
+    cout << "Task is finished.";
       }
 
       // 2
 
       cout << "second task";
     
-      int n = 10; 
-      double sum_of_squares = 0;
+      int num;
+      int res = 1;
 
-      for (int i = 0; i < n; i++) {
-          int number;
-          cout << "Enter a natural number " << i + 1 << ": ";
-          cin >> number;
-
-          double square = static_cast<double>(number * number);
-          sum_of_squares += square;
-      }
-
-      double average = sum_of_squares / n;
-      cout << "The average of the squares of the entered numbers: " << average << endl;
+for(int i = 0; i < 10; i++){
+        if(num <= 0){
+        cout << "invalid number, please enter natural number.\n";
+        break;
+    }
+    else{
+    cout << "Enter a natural number: \n";
+    cin >> num;
+    res *= num;
+    }
+}
+if (res > 0) {
+    cout << "
   }
 
 
