@@ -24,13 +24,14 @@
       int res = 1;
 
 for(int i = 0; i < 10; i++){
+      cout << "Enter a natural number: \n";
+      cin >> num;
         if(num <= 0){
         cout << "invalid number, please enter natural number.\n";
         break;
     }
     else{
-    cout << "Enter a natural number: \n";
-    cin >> num;
+
     res *= num;
     }
 }
