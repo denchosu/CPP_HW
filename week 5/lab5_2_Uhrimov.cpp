@@ -4,10 +4,6 @@
 
 using namespace std;
 
-double f(double x) {
-    return sqrt(sin(x) + x * x);
-}
-
 int main() {
         int a, b, h;
     double f;
