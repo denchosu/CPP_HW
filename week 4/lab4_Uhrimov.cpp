@@ -28,15 +28,15 @@ int main(void) {
     int numW, numL;
     float epsilon = 0.000001f;
 
-    cout << "Ââåä³òü ïåðøå ÷èñëî: ";
+    cout << "1: ";
     cin >> numW;
 
-    cout << "Ââåä³òü äðóãå ÷èñëî: ";
+    cout << "2: ";
     cin >> numL;
 
 
     if (num1 == 0 || num2 == 0) {
-        cout << "Íóëåì áóòè íå ìîæå(" << endl;
+        cout << "ne to(" << endl;
     }
     else {
 
@@ -44,10 +44,10 @@ int main(void) {
         float result2 = 1.0f / numL;
 
         if (fabs(result1 - result2) < epsilon) {
-            cout << "Ðåçóëüòàòè îäíàêîâ³ (by " << epsilon << " epsilon)" << endl;
+            cout << "ÃÃ¥Ã§Ã³Ã«Ã¼Ã²Ã Ã²Ã¨ Ã®Ã¤Ã­Ã ÃªÃ®Ã¢Â³ (by " << epsilon << " epsilon)" << endl;
         }
         else {
-            cout << "Ðåçóëüòàòè ð³çí³" << endl;
+            cout << "ÃÃ¥Ã§Ã³Ã«Ã¼Ã²Ã Ã²Ã¨ Ã°Â³Ã§Ã­Â³" << endl;
         }
 
     // 9
